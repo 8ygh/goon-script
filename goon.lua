@@ -1,4 +1,4 @@
-local player = game.Players.LocalPlayer
+local player = game.Players.LocalPlayer -- on a note, this is 100% ai -8ygh
 local character = player.Character or player.CharacterAdded:Wait()
 local isR6 = character:FindFirstChild("Torso") ~= nil
 
@@ -26,7 +26,7 @@ local function showNotification(message)
     textLabel.Size = UDim2.new(1, -20, 1, 0)
     textLabel.Position = UDim2.new(0, 10, 0, 0)
     textLabel.BackgroundTransparency = 1
-    textLabel.Text = message .. " | Say thanks to m8ne!"
+    textLabel.Text = message .. " | Say thanks to 8ygh!"
     textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     textLabel.Font = Enum.Font.SourceSansBold
     textLabel.TextSize = 18
@@ -97,7 +97,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, -60, 0, 30)
 title.Position = UDim2.new(0, 10, 0, 0)
 title.BackgroundTransparency = 1
-title.Text = "Goon by m8ne / Moon"
+title.Text = "Malicious Goon by 8ygh"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.Font = Enum.Font.SourceSansBold
 title.TextSize = 24
